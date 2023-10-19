@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+a{
+    text-decoration: none; 
+    color: rgb(56, 56, 56);
+}
+ul{
+    list-style: none;
+}
+.centre-bar{
+    width: 40%;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    align-items: initial;
+    display: flex;
+    float: left;
+    display: inline-block;
+    margin-left: 206px;
+    padding-left: 108px;
+   
+
+}
+.centre-bar ul li{
+    display: inline-block;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    
+    
+}
+.centre-bar ul li a{
+    display: flex;
+    align-items: center;
+    margin: 5px 8px;;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.centre-bar ul li a img{
+    width: 30px;
+
+}
+.nav-left{
+    width:20%;
+    margin-right: 15px;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 30px;
+    margin-right: 5%;
+    display: block;
+
+}
+.searchbar{
+    width: 250px;
+    margin-left: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 80px;
+    position: relative;
+}
+.searchbar input{
+width: 100%;
+outline: none;
+border: none;
+border-radius: 20px;
+background-color: rgb(230, 230, 230);
+
+font-size: 20px;
+}
+.searchbar img{
+    background: transparent;
+    size: 30px;
+    width: 20px;
+    position: absolute;
+    padding-left: 4px;
+    margin-left: 180px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 10px grey;
+    z-index: 100;
+    
+    
+}
+.user-image{
+    width: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    margin-left: 634px;
+    float: right;
+
+}
+.right-bar{
+    float: right;
+    width: 20%;
+}
+/*-------nav bar end------------*/
+
+.container{
+padding: 20px 1%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-image: linear-gradient(180deg, rgb(216,216, 216), rgb(255, 255, 255));
+
+}
+.leftsidebar{
+    flex-basis: 25%;
+    align-self: flex-start;
+    position: sticky;
+    top: 60px;
+}
+.rightsidebar{
+    flex-basis: 25%;
+    align-self: flex-start;
+    position: sticky;
+    top: 60px;
+}
+.maincontent{
+    flex-basis: 46%;
+}
+.profilebar{
+    background: #fff;
+    padding: 2px 0px 20px;
+}
+.profileinfo{
+    padding: 0 25px;
+}
+.profileinfo img{
+    width: 90px;
+    border-radius: 50%;
+    margin-top: -45px;
+}
+.profileinfo h1{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.profileinfo h3{
+    font-size: 16px;
+    font-weight: 500px;
+    padding-top: 5px;
+    color: #5f5f5fdd;
+}
+.profileinfo ul{
+    list-style: none;
+    padding-top: 12px;
+    color: #5f5f5fdd;
+}
+.profileinfo ul li{
+    padding: 4px  ;
+    
+}
+.profileinfo ul li span{
+    float: right;
+    color: #689edb;
+    font-weight: 200;
+}
+.recentbar{
+    width: 100%;
+    background: #fff;
+    margin-top: 10px;
+    padding: 25px 5px;
+    align-items: center;
+    display: flex;
+    display: inline-block;
+    align-items: initial;
+    justify-content: center;
+    color:#5f5f5fdd ;
+}
+.recentbar h3{
+    font-size: 18px;
+    margin: 10px;
+}
+.recentbar a{
+    display:flex ;
+    align-items: center;
+    margin: 5px;
+    font-size: 15px;
+
+}
+.groupbar{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    display: inline-block;
+    align-items: initial;
+    justify-content: center;
+    color:#5f5f5fdd ;
+    padding-left: 5px;
+    background: #fff;
+}
+.groupbar h3{
+    font-size: 18px;
+    margin: 10px;
+}
+.groupbar a{
+    display:flex ;
+    align-items: center;
+    margin: 5px;
+    font-size: 15px;
+    
+}
+.groupbar a img{
+    margin-right: 10px;
+    width: 20px;
+    padding-top: 5px;
+
+}
+.discoverbar{
+    width: 100%;
+    background: #fff;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    display: inline-block;
+    color:#5f5f5fdd ;
+    
+}
+.discoverbar h3{
+    font-size: 18px;
+    margin: 10px;
+}
+.discoverbar a{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    font-size: 15px;
+}
+.discoverbar a img{
+    margin-right: 10px;
+    width: 20px;
+    padding-top: 5px;
+}
+/*------leftbarend------*/
+.newsbar{
+    width: 100%;
+    background: #fff;
+    display: inline-block;
+   
+    align-items: center;
+    
+    padding: 15px 25px;
+    
+
+}
+.newsbar h1{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 5px;
+    color: #333;
+    margin-left: 20px;
+}
+.newsbar h1 img{
+    float: right;
+    width: 20px;
+    flex-wrap: wrap;
+}
+.newsbar a{
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: px;
+    margin-left: 20px;
+}
+.newsbar span{
+    font-size: 11px;
+    color: #5f5f5fdd;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.readmore{
+    color: #689edb;
+    font-weight: 500;
+       
+}
+.adbar{
+    background: #fff;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px 25px;
+    
+    
+}
+.adbar small{
+    float: right;
+    font-size: 11px;
+    color: #5f5f5fdd;
+
+    
+    }
+.adbar p{
+    margin-top: 50px;
+    
+}    
+.adbar img{
+    border-radius: 80px;
+    width: 80px;
+    margin-top: 40px;
+}
+.twoline{
+    color: #333;
+}
+.adbar button{
+    background: transparent;
+    width: 90px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: rgb(17, 161, 223);
+    margin-top: 40px;
+    cursor: pointer;
+    color: #689edb;
+}
+.aboutbar{
+    margin-top: 20px;
+    text-align: justify;
+    text-align: center;
+    padding: 15px 25px;
+   
+}
+.aboutbar a{
+    color: #5f5f5fdd;
+    display: inline-block;
+    margin: 4px 2px;  
+}
+.copyrightbar{
+    padding: 15px 25px;
+
+}
+.copyrightbar img{
+    width: 15%;
+}
+/*---maincontent*/
+.maincontent{
+   flex-basis: 47%;
+}
+.createpost{
+    background: #fff;  
+    width: 100%;
+}
+.createpost img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+.createpostinput{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 25px 10px;
+    width: 100%;
+}
+.createpost textarea{
+    background: transparent;
+    width: 100%;
+    resize: none;
+    border: 0;
+    outline: 0;
+    
+    margin-top: 8px;
+}
+::placeholder{
+    font-weight: 500px;
+    
+}
+.createpostlist {
+    display: flex;
+    align-items: flex-start;
+    
+    
+}
+.createpost ul{
+    display: flex;
+    width: 100%;
+}
+
+.createpostlist  li{
+    list-style: none;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    flex-basis: 25%;
+    height: 40px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+    color: #5f5f5fdd
+   
+    
+}
+.createpostlist li img{
+width: 20px;   
+}
+.createpostlist li:last-child{
+    background: #045be6;
+    color: #ccc;
+}
+.sortby{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.sortby hr{
+    flex: 1;
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
+.sortby p{
+    font-size: 13px;
+    
+}
+.sortby img{
+    width: 10px;
+    cursor: pointer;
+}
+.post{
+    background: #fff;
+    width: 100%;
+    padding: 20px 25px 5px;
+    margin: 5px 0 15px;
+}
+.accntinfo{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.feeduserimage{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+    
+}
+.accntinfo h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+
+}
+.accntinfo small{
+    display: block;
+    margin-bottom: -2px;
+
+}
+.post p{
+    
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.likecount{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.comments {
+    float: right;
+    text-align: right;
+    margin-top: -25px;
+}
+.likecount img{
+    width: 20px;
+    margin-right: -10px;
+}
+.likecount small{
+    margin-left: 5px;
+    
+    
+}
+.post hr{
+    flex: 1;
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin-top: 5px;
+}
+.box1{
+    width: 40px;
+    border-radius: 50%;
+}
+.likebutton{
+    width: 100%;
+    align-items: flex-start;
+}
+.likebutton ul{
+    display: flex;
+    width: 100%;
+    
+}
+.likebutton ul li{
+    flex-basis: 50%;
+    list-style: none;
+    border-top: 1px solid #ccc;
+    flex-basis: 25%;
+    height: 40px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+    color: #5f5f5fdd;
+    padding: 20px
+}
+.likebutton img{
+    width: 25px;
+    margin-right: 5px;
+}
